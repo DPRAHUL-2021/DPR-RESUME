@@ -4,4 +4,4 @@ This repository contains the LaTeX source code for my professional resume. It in
 
 Feel free to fork this repository and customize the content to create your own personalized resume.
 
-![Resume](PRANAVRAHULDIGUDADI-1.png)
+![Resume](DPR_LATEST.png)
