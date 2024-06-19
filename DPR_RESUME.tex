@@ -1,13 +1,4 @@
-%-------------------------
-% Resume in Latex
-% Author : Matty
-% Based on: https://github.com/jakegut/resume (which was itself based on https://github.com/sb2nov/resume)
-% License : MIT
-%------------------------
-
-\documentclass[11pt]{article}
-
-
+\documentclass[10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -25,25 +16,17 @@
 
 \input{glyphtounicode}
 
-% -------------------- FONT OPTIONS --------------------
-% sans-serif
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% serif
-% \usepackage{charter}
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-1in} % Default was -.5in
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
 
@@ -51,20 +34,16 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Section formatting
 \titleformat{\section}{
   \vspace{-5pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Subsection formatting
 \titleformat{\subsection}{
   \vspace{-4pt}\scshape\raggedright\large
 }{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-% -------------------- CUSTOM COMMANDS --------------------
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
@@ -101,14 +80,11 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\setlength{\footskip}{1.08003pt}
+\setlength{\footskip}{10pt}
 
-% -------------------- START OF DOCUMENT --------------------
 \begin{document}
 
-% -------------------- HEADING--------------------
 \begin{flushright}
-  % \vspace{-4pt}
   \color{gray}
   \item
 \end{flushright}
@@ -121,131 +97,116 @@
     \faIcon{github}
     \href{https://github.com/DPRAHUL-2021}{\underline{github.com/DPRAHUL-2021}} $  $
     \faIcon{linkedin}
-    \href{www.linkedin.com/in/pranavrahuldigudadi}{\underline{linkedin.com/in/pranavrahuldigudadi}} $  $
+    \href{https://www.linkedin.com/in/pranavrahuldigudadi/}{\underline{linkedin.com/in/pranavrahuldigudadi}} $  $
     \faIcon{envelope}
     \href{mailto:dpranavr2021@gmail.com}
     {\underline{dpranavr2021@gmail.com}}
-    % \faIcon{phone}
-    % \textbf{9885663560}
-    % {\underline{mattydoe.com}} $  $
+    \faIcon{phone}
+    \textbf{\underline{9885663560}} 
+    % \vspace{2pt} % Adjust the spacing as needed
+
+
 \end{center}
 
-% -------------------- EDUCATION --------------------
 \section{Education}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
   
-    \resumeSubheading
-      {Gandhi Institute of Technology and Management(GITAM)}{November 2022 - May 2026}
-      {B.Tech Computer Science and Engineering}{Current GPA: 9.91/10.0}
-      \vspace{5pt}
-    \resumeSubheading
-      {Narayana Junior College }{June 2022}
-      {Class 12}{GRADE: 95.6/100.0}
+  \resumeSubheading
+    {Gandhi Institute of Technology and Management (GITAM)}{Nov 2022 - May 2026}
+    {B.Tech Computer Science and Engineering}{GPA: 9.88/10.0}
+  \resumeSubheading
+    {Narayana Junior College}{Jun 2022}
+    {Class 12}{GRADE: 95.6/100.0}
 
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
 
-% \section{Coursework}
-%   \resumeSubHeadingListStart
-  
-%     \resumeSubheading
-%       {Courses: }
-%       {Object-Oriented Programming, Data Structures \& Algorithms, Operating Systems}
-%   \resumeSubHeadingListEnd
-
-% \section{Coursework}
-  % \resumeSubHeadingListStart
-    % \resumeSubheading
-    %   {Courses: }
-    %   {Object-Oriented Programming, Data Structures \& Algorithms, Operating Systems, Computer Networks, Mechatronics, AI-Applications}
-    
-% -------------------- SKILLS --------------------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-    
-     \textbf{Languages}{: Java, C, Python, JavaScript, HTML, CSS} \\
-     \textbf{Frameworks}{: Tailwind CSS, Bootstrap} \\     
-     \textbf{UI/UX Tools }{: Figma, Wix Studio} \\   
-     \textbf{Tools}{: GitHub, Visual Studio Code, IntelliJ IDEA, OBS Studio}\\
-     \textbf{Coursework}{: Object-Oriented Programming, Data Structures \& Algorithms, Operating Systems, Computer Networks, Mechatronics, AI-Applications}
-     % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     
-     % \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-     
+     \textbf{Languages}{: C++, Java, C, Python, JavaScript, HTML, CSS, Kotlin, XML} \\
+     \textbf{Frameworks}{: Tailwind CSS, Bootstrap, Streamlit} \\    
+     \textbf{UI/UX Tools }{: Figma, Wix Studio, Framer} \\   
+     \textbf{Tools}{: GitHub, VS Code, Android Studio, IntelliJ IDEA, OBS Studio, Canva} \\
+     \textbf{Libraries \& APIs}{: pandas, NumPy, Matplotlib, Firebase, Room Database, Retrofit} \\
+     \textbf{Coursework}{: OOP, Data Structures \& Algorithms, OS, Computer Networks, Mechatronics, AI-Applications}
     }}
  \end{itemize}
 
-% -------------------- PROJECTS --------------------
 \section{Projects}
-    \resumeSubHeadingListStart
+\resumeSubHeadingListStart
 
-        \resumeProjectHeading
-{\textbf{Sorting Algorithm Visualizer} $|$ \footnotesize\emph{Java, Java Swing, Multithreading}}{}
-\resumeItemListStart
-    \resumeItem{Developed a Java application for visualizing various sorting algorithms.}
-    \resumeItem{Implemented sorting algorithms including Bubble Sort, Selection Sort, Heap Sort, Insertion Sort, Merge Sort, and Quick Sort.}
-    \resumeItem{Designed a user interface using Java Swing for user interaction and visualization of sorting processes.}
-    \resumeItem{Utilized multithreading to ensure smooth animation and responsiveness during sorting.}
-    \resumeItem{\textbf{GitHub}: \href{https://github.com/DPRAHUL-2021/Sorting-Algorithm-Visualizer}{\textcolor{blue}{\underline{Sorting-Algorithm-Visualizer}}}.}
-\resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Flasho - A Grocery Delivery App} $|$ \footnotesize\emph{Kotlin, MVVM, Firebase, PhonePe, Retrofit, Coroutines}}{}
+    \resumeItemListStart
+      \resumeItem{Created a feature-rich e-commerce application with comprehensive user and admin functionalities.}
+      \resumeItem{Implemented secure user authentication using Firebase Phone Authentication.}
+      \resumeItem{Integrated PhonePe for payment processing in test mode.}
+      \resumeItem{Utilized MVVM architecture and Retrofit for maintainable code.}
+      \resumeItem{Leveraged Firebase for real-time database operations and Coroutines for smooth asynchronous processing.}
+      \resumeItem{\textbf{GitHub:} \href{https://github.com/DPRAHUL-2021/Flasho}{\textcolor{blue}{\underline{Flasho}}}}
+    \resumeItemListEnd
 
+  \resumeProjectHeading
+    {\textbf{DPR'S Sentiment Analyser} $|$ \footnotesize\emph{Python, Streamlit, TextBlob, VADER, Matplotlib}}{}
+    \resumeItemListStart
+      \resumeItem{Developed an interactive web app for sentiment analysis of user-inputted text.}
+      \resumeItem{Implemented sentiment analysis using TextBlob and VADER.}
+      \resumeItem{Utilized Matplotlib for dynamic visualization of sentiment proportions.}
+      \resumeItem{Ensured a user-friendly interface with real-time analysis using Streamlit.}
+      \resumeItem{\textbf{Project Link:} \href{https://dpr-s-sentiment-analyser-o.streamlit.app/}{\textcolor{blue}{\underline{DPR'S Sentiment Analyser}}}}
+    \resumeItemListEnd
 
+  \resumeProjectHeading
+    {\textbf{Sorting Algorithm Visualizer} $|$ \footnotesize\emph{Java, Java Swing, Multithreading}}{}
+    \resumeItemListStart
+      \resumeItem{Developed a Java application for visualizing various sorting algorithms.}
+      \resumeItem{Implemented a diverse set of sorting algorithms, including Bubble Sort, Selection Sort, Heap Sort, Insertion Sort, Merge Sort, and Quick Sort.}
+      \resumeItem{Designed a UI using Java Swing for user interaction and visualization of sorting process.}
+      \resumeItem{Utilized multithreading for smooth animation during sorting.}
+      \resumeItem{\textbf{GitHub:} \href{https://github.com/DPRAHUL-2021/Sorting-Algorithm-Visualizer}{\textcolor{blue}{\underline{Sorting-Algorithm-Visualizer}}}}
+    \resumeItemListEnd
 
-    
-        \resumeProjectHeading
-{\textbf{DPR's Quizinity} $|$ \footnotesize\emph{HTML/CSS, JavaScript}}{}
-\resumeItemListStart
-    \resumeItem{Developed a quiz website for users to test their knowledge in various categories}
-    \resumeItem{Implemented features such as category selection, answering questions, and displaying scores}
-    \resumeItem{Utilized JavaScript for dynamic content generation and user interaction}
-    \resumeItem{\textbf{Website}: \href{https://dprahul-2021.github.io/DPR-s-Quizinity/}{\textcolor{blue}{\underline{DPR's Quizinity}}}}
-\resumeItemListEnd
+\resumeSubHeadingListEnd
 
-          
-      \resumeProjectHeading
-{\textbf{DPR's Weather Finder} $|$ \footnotesize\emph{HTML/CSS, JavaScript, OpenWeatherMap API}}{}
-\resumeItemListStart
-    \resumeItem{Developed a weather finder web application allowing users to retrieve weather information for different cities.}
-    \resumeItem{Utilized HTML/CSS for structuring and styling the user interface, creating a visually appealing design.}
-    \resumeItem{Implemented JavaScript to interact with the OpenWeatherMap API, fetching weather data based on user input.}
-    \resumeItem{Utilized asynchronous JavaScript functions to handle API requests and dynamically update the UI with weather information.}
-    \resumeItem{\textbf{Website}: \href{https://dprahul-2021.github.io/DPR-Weather/}{\textcolor{blue}{\underline{DPReather}}}}
-\resumeItemListEnd
-
-          
-    \resumeSubHeadingListEnd
-
+\section{Achievements}
 \vspace{3pt}
-% -------------------- EXPERIENCE --------------------
+\resumeSubHeadingListStart
+  \item \item Achieved a \textbf{top-10} finish out of \textbf{128} teams in the \textbf{GDSCWOWAP Hackathon 2024}
+
+  \item Ranked \textbf{first} in college with the \textbf{Highest CGPA}
+  \item Advanced to the final round out of \textbf{150} teams in the \textbf{Smart India Hackathon 2023}
+\resumeSubHeadingListEnd
+
+
 \section{Student Clubs Involvement}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
 
-          \resumeProjectHeading
-          {\textbf{COGAAN Club} $|$ \footnotesize\emph{Coder}\vspace{8pt}}{}
-          {\small{Involved in the club centered around Competitive Programming}}
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{COGAAN Club} $|$ \footnotesize\emph{Coder} & \\
+    \small Involved in the club centered around Coding, Animation and Development & \\
+  \end{tabular*}
 
-          \resumeProjectHeading
-          {\textbf{Gitam Model United Nations(GMUN)}\vspace{8pt} $|$ \footnotesize\emph{Graphic Designer}}{}
-          \small{Designed promotional materials including social media posts and graphics for GMUN events}
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Gitam Model United Nations (GMUN)} $|$ \footnotesize\emph{Graphic Designer} & \\
+    \small Designed promotional materials including social media posts and posters for GMUN events & \\
+  \end{tabular*}
 
-          \resumeProjectHeading
-          {\textbf{Entrepreneurship Club} $|$ \footnotesize\emph{Event Management Member}\vspace{8pt}}{}
-          {\small{Collaborated with team members to plan and execute successful club events, fostering a vibrant entrepreneurial community}}
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Entrepreneurship Club} $|$ \footnotesize\emph{Event Management Member} & \\
+    \small Collaborated with team members to plan and execute successful club events, fostering a vibrant entrepreneurial community & \\
+  \end{tabular*}
 
-          \resumeProjectHeading
-          {\textbf{GITAM Football Club} $|$ \footnotesize\emph{Player}\vspace{8pt}}{}
-          {\small{Contributed to team strategy and performance as a right midfielder. Engaged in club events and training, fostering team cohesion.}}
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{GITAM Football Club} $|$ \footnotesize\emph{Player} & \\
+    \small Contributed to team strategy and performance as a right midfielder. Engaged in club events and training, fostering team cohesion. & \\
+  \end{tabular*}
 
-        % \subsection{Hobbies}
-          
-        %   \resumeProjectHeading
-        %   {\textbf{Playing the Drums}\vspace{8pt}}{2013 -- 2019}
-        %   {\small{Played the drums in symphonic, jazz, and marching bands}}
+\resumeSubHeadingListEnd
 
-        %   \resumeProjectHeading
-        %   {\textbf{3\textsuperscript{rd} Place Time Keeping Challenge Championship \footnotesize{(Time Keeping Assocation)}}\vspace{8pt}}{Feb. 2022 -- May 2022}
-        %   {\small{Won \$1500 nationally competing against high school students in counting seconds and minutes}}
-          
-    \resumeSubHeadingListEnd 
+
 
 \end{document}
